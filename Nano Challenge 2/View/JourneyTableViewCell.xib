@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="journey" id="KGk-i7-Jjw" customClass="JourneyTableViewCell" customModule="Nano_Challenge_2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="teO-r1-IoS">
+                        <rect key="frame" x="0.0" y="6" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="LTQ-6P-TpE"/>
+                            <constraint firstAttribute="width" constant="48" id="v8K-ih-sWe"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Galang Aji Susanto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRp-3W-doj">
+                        <rect key="frame" x="56" y="8" width="286" height="19.5"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tech" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXR-tN-rif">
+                        <rect key="frame" x="56" y="31.5" width="286" height="20"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sZw-Dq-18X">
+                        <rect key="frame" x="0.0" y="62" width="350" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="MKm-PV-5wl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lorem ipsum dolor sit amet consectetur adipiscing elit consectetur adipiscing elit co…" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXs-Py-eVI">
+                        <rect key="frame" x="0.0" y="220" width="350" height="51"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZR-IN-ybP">
+                        <rect key="frame" x="0.0" y="285" width="70" height="15"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsW-ha-KDb">
+                        <rect key="frame" x="296" y="273" width="54" height="27"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <state key="normal" title="See more">
+                            <color key="titleColor" name="PrimaryColor"/>
+                        </state>
+                        <connections>
+                            <action selector="btnSeeMoreClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mic-2u-0El"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="teO-r1-IoS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1GD-hP-0i8"/>
+                    <constraint firstItem="mRp-3W-doj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="46S-tj-oyf"/>
+                    <constraint firstAttribute="trailing" secondItem="hsW-ha-KDb" secondAttribute="trailing" id="CyH-Db-C3Y"/>
+                    <constraint firstItem="UXs-Py-eVI" firstAttribute="top" secondItem="sZw-Dq-18X" secondAttribute="bottom" constant="8" id="GvV-rF-aHT"/>
+                    <constraint firstAttribute="trailing" secondItem="TXR-tN-rif" secondAttribute="trailing" constant="8" id="Ik5-os-ZNG"/>
+                    <constraint firstItem="sZw-Dq-18X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="J6D-TY-h1k"/>
+                    <constraint firstItem="UXs-Py-eVI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="LdC-V4-rWG"/>
+                    <constraint firstItem="sZw-Dq-18X" firstAttribute="top" secondItem="teO-r1-IoS" secondAttribute="bottom" constant="8" id="MdS-WX-TZa"/>
+                    <constraint firstItem="mRp-3W-doj" firstAttribute="leading" secondItem="teO-r1-IoS" secondAttribute="trailing" constant="8" id="Qyt-Qt-wvV"/>
+                    <constraint firstItem="RZR-IN-ybP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SFv-7P-qbw"/>
+                    <constraint firstAttribute="bottom" secondItem="hsW-ha-KDb" secondAttribute="bottom" id="TVF-iw-hRV"/>
+                    <constraint firstAttribute="trailing" secondItem="sZw-Dq-18X" secondAttribute="trailing" id="Xb6-zg-utc"/>
+                    <constraint firstItem="TXR-tN-rif" firstAttribute="leading" secondItem="teO-r1-IoS" secondAttribute="trailing" constant="8" id="Xhf-ev-xQI"/>
+                    <constraint firstAttribute="trailing" secondItem="UXs-Py-eVI" secondAttribute="trailing" id="ZS2-DT-TK0"/>
+                    <constraint firstAttribute="bottom" secondItem="RZR-IN-ybP" secondAttribute="bottom" id="ZlM-2o-bJW"/>
+                    <constraint firstAttribute="bottom" secondItem="UXs-Py-eVI" secondAttribute="bottom" constant="29" id="fmh-NQ-9DJ"/>
+                    <constraint firstItem="teO-r1-IoS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="nLy-UU-VgM"/>
+                    <constraint firstItem="TXR-tN-rif" firstAttribute="top" secondItem="mRp-3W-doj" secondAttribute="bottom" constant="4" id="pcU-ca-Emf"/>
+                    <constraint firstAttribute="trailing" secondItem="mRp-3W-doj" secondAttribute="trailing" constant="8" id="va1-eJ-in4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgExplorerPhoto" destination="teO-r1-IoS" id="Fi7-ZW-eTa"/>
+                <outlet property="imgJourneyPhoto" destination="sZw-Dq-18X" id="ir1-0a-mP2"/>
+                <outlet property="txtExplorerExpertise" destination="TXR-tN-rif" id="Rmg-mP-tgk"/>
+                <outlet property="txtExplorerName" destination="mRp-3W-doj" id="dEy-a9-IMY"/>
+                <outlet property="txtJourneyComment" destination="RZR-IN-ybP" id="3pc-3K-gZ9"/>
+                <outlet property="txtJourneyContent" destination="UXs-Py-eVI" id="XQi-Uq-oRu"/>
+            </connections>
+            <point key="canvasLocation" x="159.42028985507247" y="202.23214285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="PrimaryColor">
+            <color red="0.11800000071525574" green="0.43500000238418579" blue="0.36100000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

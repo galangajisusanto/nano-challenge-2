@@ -9,21 +9,55 @@
 /* Begin PBXBuildFile section */
 		030F2A9C263F845900F53E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F2A9B263F845900F53E3B /* AppDelegate.swift */; };
 		030F2A9E263F845900F53E3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F2A9D263F845900F53E3B /* SceneDelegate.swift */; };
-		030F2AA0263F845900F53E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F2A9F263F845900F53E3B /* ViewController.swift */; };
 		030F2AA3263F845900F53E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030F2AA1263F845900F53E3B /* Main.storyboard */; };
 		030F2AA5263F845900F53E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030F2AA4263F845900F53E3B /* Assets.xcassets */; };
 		030F2AA8263F845900F53E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030F2AA6263F845900F53E3B /* LaunchScreen.storyboard */; };
+		030F2AB5263FAAB000F53E3B /* JourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F2AB4263FAAB000F53E3B /* JourneyViewController.swift */; };
+		030F2AB8263FAAC800F53E3B /* ExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030F2AB7263FAAC800F53E3B /* ExplorerViewController.swift */; };
+		0395905C263FB0C8001F1655 /* Explorer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0395905A263FB0C8001F1655 /* Explorer.storyboard */; };
+		0395905F263FB126001F1655 /* Journey.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0395905E263FB126001F1655 /* Journey.storyboard */; };
+		0395906B263FC5CB001F1655 /* explorers.json in Resources */ = {isa = PBXBuildFile; fileRef = 0395906A263FC5CB001F1655 /* explorers.json */; };
+		0395906E263FCFE0001F1655 /* Explorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395906D263FCFE0001F1655 /* Explorer.swift */; };
+		03959073263FD810001F1655 /* ExplorerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03959072263FD810001F1655 /* ExplorerRepository.swift */; };
+		03CEA27A26429DD200EE86C1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEA27926429DD200EE86C1 /* ProfileViewController.swift */; };
+		03CEA27D2642A85E00EE86C1 /* Journey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEA27C2642A85E00EE86C1 /* Journey.swift */; };
+		03CEA2802642A8D600EE86C1 /* JourneyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEA27F2642A8D600EE86C1 /* JourneyRepository.swift */; };
+		03CEA2842642AAFF00EE86C1 /* JourneyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEA2822642AAFF00EE86C1 /* JourneyTableViewCell.swift */; };
+		03CEA2852642AAFF00EE86C1 /* JourneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CEA2832642AAFF00EE86C1 /* JourneyTableViewCell.xib */; };
+		03D79C592640DE13003D459E /* ExplorerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D79C572640DE13003D459E /* ExplorerCollectionViewCell.swift */; };
+		03D79C5A2640DE13003D459E /* ExplorerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D79C582640DE13003D459E /* ExplorerCollectionViewCell.xib */; };
+		03D79C602640EA9E003D459E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D79C5F2640EA9E003D459E /* Extension.swift */; };
+		03D79C662640FBBE003D459E /* ExplorerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D79C652640FBBE003D459E /* ExplorerDetailViewController.swift */; };
+		03E1DC1626437D1700E795E0 /* JourneyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E1DC1526437D1700E795E0 /* JourneyDetailViewController.swift */; };
+		03E1DC1A26439BA000E795E0 /* AddJourneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E1DC1926439BA000E795E0 /* AddJourneyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		030F2A98263F845900F53E3B /* Nano Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nano Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		030F2A9B263F845900F53E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		030F2A9D263F845900F53E3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		030F2A9F263F845900F53E3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		030F2AA2263F845900F53E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		030F2AA4263F845900F53E3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		030F2AA7263F845900F53E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		030F2AA9263F845900F53E3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030F2AB4263FAAB000F53E3B /* JourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyViewController.swift; sourceTree = "<group>"; };
+		030F2AB7263FAAC800F53E3B /* ExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerViewController.swift; sourceTree = "<group>"; };
+		0395905B263FB0C8001F1655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Nano Challenge 2/Base.lproj/Explorer.storyboard"; sourceTree = "<group>"; };
+		0395905E263FB126001F1655 /* Journey.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Journey.storyboard; sourceTree = "<group>"; };
+		0395906A263FC5CB001F1655 /* explorers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = explorers.json; sourceTree = "<group>"; };
+		0395906D263FCFE0001F1655 /* Explorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explorer.swift; sourceTree = "<group>"; };
+		03959072263FD810001F1655 /* ExplorerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerRepository.swift; sourceTree = "<group>"; };
+		03CEA27926429DD200EE86C1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		03CEA27C2642A85E00EE86C1 /* Journey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journey.swift; sourceTree = "<group>"; };
+		03CEA27F2642A8D600EE86C1 /* JourneyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyRepository.swift; sourceTree = "<group>"; };
+		03CEA2822642AAFF00EE86C1 /* JourneyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyTableViewCell.swift; sourceTree = "<group>"; };
+		03CEA2832642AAFF00EE86C1 /* JourneyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JourneyTableViewCell.xib; sourceTree = "<group>"; };
+		03D79C572640DE13003D459E /* ExplorerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerCollectionViewCell.swift; sourceTree = "<group>"; };
+		03D79C582640DE13003D459E /* ExplorerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExplorerCollectionViewCell.xib; sourceTree = "<group>"; };
+		03D79C5F2640EA9E003D459E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		03D79C652640FBBE003D459E /* ExplorerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerDetailViewController.swift; sourceTree = "<group>"; };
+		03E1DC1526437D1700E795E0 /* JourneyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyDetailViewController.swift; sourceTree = "<group>"; };
+		03E1DC1926439BA000E795E0 /* AddJourneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddJourneyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,72 @@
 		030F2A9A263F845900F53E3B /* Nano Challenge 2 */ = {
 			isa = PBXGroup;
 			children = (
+				03D79C5E2640EA80003D459E /* Extension */,
+				03959076263FD94D001F1655 /* Data */,
+				03959069263FC587001F1655 /* Model */,
+				030F2AB2263F888F00F53E3B /* Controller */,
+				030F2AB1263F887E00F53E3B /* View */,
 				030F2A9B263F845900F53E3B /* AppDelegate.swift */,
 				030F2A9D263F845900F53E3B /* SceneDelegate.swift */,
-				030F2A9F263F845900F53E3B /* ViewController.swift */,
-				030F2AA1263F845900F53E3B /* Main.storyboard */,
 				030F2AA4263F845900F53E3B /* Assets.xcassets */,
 				030F2AA6263F845900F53E3B /* LaunchScreen.storyboard */,
 				030F2AA9263F845900F53E3B /* Info.plist */,
 			);
 			path = "Nano Challenge 2";
+			sourceTree = "<group>";
+		};
+		030F2AB1263F887E00F53E3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				030F2AA1263F845900F53E3B /* Main.storyboard */,
+				0395905E263FB126001F1655 /* Journey.storyboard */,
+				0395905A263FB0C8001F1655 /* Explorer.storyboard */,
+				03D79C582640DE13003D459E /* ExplorerCollectionViewCell.xib */,
+				03CEA2832642AAFF00EE86C1 /* JourneyTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		030F2AB2263F888F00F53E3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03CEA2822642AAFF00EE86C1 /* JourneyTableViewCell.swift */,
+				03D79C572640DE13003D459E /* ExplorerCollectionViewCell.swift */,
+				030F2AB4263FAAB000F53E3B /* JourneyViewController.swift */,
+				030F2AB7263FAAC800F53E3B /* ExplorerViewController.swift */,
+				03D79C652640FBBE003D459E /* ExplorerDetailViewController.swift */,
+				03CEA27926429DD200EE86C1 /* ProfileViewController.swift */,
+				03E1DC1526437D1700E795E0 /* JourneyDetailViewController.swift */,
+				03E1DC1926439BA000E795E0 /* AddJourneyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03959069263FC587001F1655 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0395906D263FCFE0001F1655 /* Explorer.swift */,
+				03CEA27C2642A85E00EE86C1 /* Journey.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03959076263FD94D001F1655 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				03959072263FD810001F1655 /* ExplorerRepository.swift */,
+				0395906A263FC5CB001F1655 /* explorers.json */,
+				03CEA27F2642A8D600EE86C1 /* JourneyRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		03D79C5E2640EA80003D459E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				03D79C5F2640EA9E003D459E /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +215,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CEA2852642AAFF00EE86C1 /* JourneyTableViewCell.xib in Resources */,
+				0395906B263FC5CB001F1655 /* explorers.json in Resources */,
+				03D79C5A2640DE13003D459E /* ExplorerCollectionViewCell.xib in Resources */,
 				030F2AA8263F845900F53E3B /* LaunchScreen.storyboard in Resources */,
 				030F2AA5263F845900F53E3B /* Assets.xcassets in Resources */,
 				030F2AA3263F845900F53E3B /* Main.storyboard in Resources */,
+				0395905F263FB126001F1655 /* Journey.storyboard in Resources */,
+				0395905C263FB0C8001F1655 /* Explorer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +233,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030F2AA0263F845900F53E3B /* ViewController.swift in Sources */,
+				0395906E263FCFE0001F1655 /* Explorer.swift in Sources */,
+				03CEA27D2642A85E00EE86C1 /* Journey.swift in Sources */,
+				03959073263FD810001F1655 /* ExplorerRepository.swift in Sources */,
+				03CEA2842642AAFF00EE86C1 /* JourneyTableViewCell.swift in Sources */,
+				03E1DC1626437D1700E795E0 /* JourneyDetailViewController.swift in Sources */,
+				03CEA27A26429DD200EE86C1 /* ProfileViewController.swift in Sources */,
+				03D79C662640FBBE003D459E /* ExplorerDetailViewController.swift in Sources */,
+				030F2AB5263FAAB000F53E3B /* JourneyViewController.swift in Sources */,
+				03D79C592640DE13003D459E /* ExplorerCollectionViewCell.swift in Sources */,
 				030F2A9C263F845900F53E3B /* AppDelegate.swift in Sources */,
+				03D79C602640EA9E003D459E /* Extension.swift in Sources */,
+				03E1DC1A26439BA000E795E0 /* AddJourneyViewController.swift in Sources */,
 				030F2A9E263F845900F53E3B /* SceneDelegate.swift in Sources */,
+				03CEA2802642A8D600EE86C1 /* JourneyRepository.swift in Sources */,
+				030F2AB8263FAAC800F53E3B /* ExplorerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +268,14 @@
 				030F2AA7263F845900F53E3B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0395905A263FB0C8001F1655 /* Explorer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0395905B263FB0C8001F1655 /* Base */,
+			);
+			name = Explorer.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
